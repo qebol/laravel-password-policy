@@ -4,7 +4,7 @@ namespace Qebol\Config;
 
 use Illuminate\Support\Facades\DB;
 
-trait PolicyTrait
+trait PasswordPolicy
 {
     public function setPasswordAttribute($value)
     {
