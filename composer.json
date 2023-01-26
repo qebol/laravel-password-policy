@@ -1,0 +1,26 @@
+{
+    "name": "qebol/laravel-password-policy",
+    "description": "Laravel Password Policy",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Qebol\\Config\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Mulugu",
+            "email": "kevinmulugu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qebol\\Config\\Providers\\QebolPasswordPolicyServiceProvider"
+            ]
+        }
+    }
+}
