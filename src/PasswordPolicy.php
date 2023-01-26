@@ -9,7 +9,7 @@ trait PasswordPolicy
     public function setPasswordAttribute($value)
     {
         if ($this->password_expired) {
-            $this->save([
+            $this->update([
                 'policy_status' => 'E',
                 'password_expired' => false
             ]);
