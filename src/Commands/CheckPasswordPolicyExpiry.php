@@ -14,7 +14,7 @@ class CheckPasswordPolicyExpiry extends Command
      *
      * @var string
      */
-    protected $signature = 'password-expiry:checker';
+    protected $signature = 'password-policy:enforcer';
 
     /**
      * The console command description.
