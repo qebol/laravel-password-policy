@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->char('policy_status', 'E')->nullable();
+            $table->char('policy_status')->default('E');
             $table->boolean('password_expired')->default(false);
         });
     }
